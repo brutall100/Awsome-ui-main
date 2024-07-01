@@ -833,6 +833,53 @@ nav ul li a:hover {
         gap: 1.7em;
     }
 
+     /* E section */
+     .e-section {
+        margin-top: 2em;
+        width: 100%;
+    }
+    .e-section-ctn {
+        padding: 0 ;
+    }
+    
+    .e-section-img-ctn{
+        margin: 0;
+        overflow: hidden;
+    }
+    .e-section-img-ctn img{
+        height: 308px;
+        width: auto;
+    }
+
+    .e-section-txt-ctn{
+        margin: 0;
+
+        margin-right:1em;
+        margin-left: 1em;
+        padding: 2em;
+        width: 100%;
+        
+        
+    }
+    .e-section-txt-ctn small{
+        font-size: 13px;
+        
+    }
+    .e-section-txt-ctn h2{
+        font-size: 20px;
+        
+    }
+    .e-section-txt-ctn p{
+        font-size: 10px;
+        
+    }
+    .e-section-txt-ctn button{
+        font-size: 10px;
+        border-radius: 1px;
+        width: 100%;
+        
+    }
+
 
 
 }
@@ -1139,19 +1186,29 @@ nav ul li a:hover {
     /* E section */
     .e-section {
         margin-top: 2em;
+        width: 100%;
+    }
+    .e-section-ctn {
+        padding: 0 ;
     }
     
     .e-section-img-ctn{
         margin: 0;
+        overflow: hidden;
     }
     .e-section-img-ctn img{
-        margin: 0;
-        display: none;
+        height: 308px;
+        width: auto;
     }
 
     .e-section-txt-ctn{
-        width: 100%;
         margin: 0;
+
+        margin-right:1em;
+        margin-left: 1em;
+        padding: 2em;
+        width: 200%;
+        
         
     }
     .e-section-txt-ctn small{
@@ -1185,6 +1242,7 @@ nav ul li a:hover {
     .f-section-ctn, .f-section-top, .f-section-bottom{
         margin: 0;
         padding: 0;
+        gap: 0;
     }
 
     .f-section-top small{
@@ -1194,6 +1252,18 @@ nav ul li a:hover {
     .f-section-top h2{
         font-size: 20px;
         
+    }
+
+    .f-section-bottom-card h3{
+            font-size: 13px;
+            margin: 0;
+            padding: 2.4em 0;
+    }
+
+    .f-section-bottom-card span.user-name{
+            font-size:16px;
+            font-weight: 400;
+            
     }
 
 
