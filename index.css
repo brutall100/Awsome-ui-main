@@ -71,6 +71,12 @@ header {
   display: flex;
   align-items: center;
   gap: 12px;
+  transition: all 0.5s ease-in-out;
+}
+
+.logo:hover {
+  cursor: pointer;
+  transform: scale(1.2);
 }
 
 .logo img {
