@@ -163,10 +163,9 @@ nav ul li a:hover {
   width: 34.5%;
   margin-top: 3.3em;
   margin-left: 2.5em;
-  background-image: url("/img/Ellipse 116.svg");
+  background-image: url("./img/Ellipse 116.svg");
   background-repeat: no-repeat;
   background-position: 40% 0;
-  /* border: 1px solid var(--elements-bg-color); */
 }
 
 .hero h1 {
